@@ -3,6 +3,7 @@ body {
     margin: 0;
 }
 
+/* HEADER */
 .header {
     display: flex;
     justify-content: space-between;
@@ -18,7 +19,7 @@ ul {
     gap: 20px;
   }
 
-.headerLogo {
+.header h {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -28,20 +29,7 @@ ul {
     color: #E5E7EB;
 }
 
-.hero {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: space-between;
-    padding: 100px;
-}
-
-.heroTitle {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 900;
-}
-
-.signUp {
+.signUpBtn {
     background-color: #3882F6;
     color: white;
     border: none;
@@ -49,4 +37,108 @@ ul {
     font-size: 18px;
     padding: 10px 30px;
     
+}
+
+/* HERO */
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.hero h {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding-right: 50px;
+}
+
+
+/* INFORMATION */
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 50px;
+    padding-bottom: 100px;
+}
+
+.infoHeader {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+}
+
+.imageGrid {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.imageGrid p {
+    font-size: 14px;
+    color: #1F2937;
+}
+
+.imageDesc {
+    text-align: center;
+    padding: 20px;
+}
+
+.imageDesc img {
+    border: 5px solid #3882F6;
+    border-radius: 10%;
+}
+
+/* QUOTE */
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+}
+
+#quoteText {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+#quoteName {
+    align-self:flex-end;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+/* SIGN UP */
+.signUp {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 200px;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+.signUp p {
+    color: #E5E7EB;
+    padding-right: 40px;
+}
+
+.signUp button {
+    width: 100px;
+    height: 25px;
+    border: 2px solid #F9FAF8;
+    border-radius: 10%;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.signUp h {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
 }
